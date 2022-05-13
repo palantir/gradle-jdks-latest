@@ -2,7 +2,6 @@ com.fasterxml.jackson.core:jackson-databind = 2.13.2.1
 com.fasterxml.jackson.core:* = 2.13.2
 org.immutables:* = 2.8.8
 com.netflix.nebula:nebula-test = 10.1.0
-org.junit.jupiter:* = 5.8.2
 
 # dependency-upgrader:OFF
 com.palantir.gradle.jdks:* = 0.7.0
