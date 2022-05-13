@@ -26,7 +26,7 @@ import org.gradle.api.Plugin;
 import org.gradle.api.Project;
 import org.gradle.jvm.toolchain.JavaLanguageVersion;
 
-final class LatestJdksPlugin implements Plugin<Project> {
+public final class LatestJdksPlugin implements Plugin<Project> {
     @Override
     public void apply(Project project) {
         project.getPlugins().apply(JdksPlugin.class);
