@@ -47,7 +47,7 @@ public final class LatestJdksPlugin implements Plugin<Project> {
         try {
             return objectMapper.readValue(
                     LatestJdksPlugin.class.getClassLoader().getResourceAsStream("latestjdks/latest-jdks.json"),
-                    new TypeReference<Map<String, JdkInfo>>() {});
+                    new TypeReference<>() {});
         } catch (IOException e) {
             throw new RuntimeException("Could not deserialize list of versions to use for JDKs", e);
         }
