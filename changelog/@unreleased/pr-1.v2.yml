@@ -1,0 +1,5 @@
+type: feature
+feature:
+  description: Initial release
+  links:
+  - https://github.com/palantir/gradle-jdks-latest/pull/1
