@@ -1,0 +1,3 @@
+rootProject.name = 'gradle-jdks-latest-root'
+
+include 'gradle-jdks-latest'

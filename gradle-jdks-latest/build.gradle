@@ -1,0 +1,35 @@
+apply plugin: 'java-gradle-plugin'
+apply plugin: 'groovy'
+apply plugin: 'com.palantir.external-publish-jar'
+
+dependencies {
+    implementation 'com.palantir.gradle.jdks:gradle-jdks'
+    implementation 'com.fasterxml.jackson.core:jackson-databind'
+
+    compileOnly 'org.immutables:value::annotations'
+    annotationProcessor 'org.immutables:value'
+
+    testImplementation 'com.netflix.nebula:nebula-test'
+}
+
+gradlePlugin {
+    plugins {
+        jdks {
+            id = 'com.palantir.jdks.latest'
+            displayName = 'Palantir Latest JDK Auto-provisioning Plugin'
+            description = 'Configure gradle-jdks with the latest blessed JDKs'
+            implementationClass = 'com.palantir.gradle.jdkslatest.LatestJdksPlugin'
+        }
+    }
+}
+
+//pluginBundle {
+//    website = 'https://github.com/palantir/gradle-jdks-latest'
+//    vcsUrl = 'https://github.com/palantir/gradle-jdks-latest'
+//    description = 'Configure gradle-jdks with the latest blessed JDKs'
+//    tags = ['java', 'jdks']
+//}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.errorprone.disable 'JavaxInjectOnAbstractMethod'
+}
