@@ -1,3 +1,7 @@
+<p align="right">
+<a href="https://autorelease.general.dmz.palantir.tech/palantir/gradle-jdks-latest"><img src="https://img.shields.io/badge/Perform%20an-Autorelease-success.svg" alt="Autorelease"></a>
+</p>
+
 # gradle-jdks-latest
 
 Configure [gradle-jdks](https://github.com/palantir/gradle-jdks) with the latest JDKs.
