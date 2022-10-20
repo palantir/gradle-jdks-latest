@@ -1,5 +1,5 @@
-com.fasterxml.jackson.core:jackson-databind = 2.13.3
-com.fasterxml.jackson.core:* = 2.13.3
+com.fasterxml.jackson.core:jackson-databind = 2.13.4.2
+com.fasterxml.jackson.core:* = 2.13.4
 org.immutables:* = 2.8.8
 com.netflix.nebula:nebula-test = 10.1.0
 
