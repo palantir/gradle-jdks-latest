@@ -16,7 +16,7 @@ The repo is regularly kept up to date with the latest versions of JDKs for the J
 
 ## Disclaimer
 
-You may use this project, but should not except any level of support or that newer plugin versions maintain support for existing Java major versions or keep using the same JDK distributions. 
+You may use this project, but should not expect any level of support or that newer plugin versions maintain support for existing Java major versions or keep using the same JDK distributions. 
 
 ## Usage
 
