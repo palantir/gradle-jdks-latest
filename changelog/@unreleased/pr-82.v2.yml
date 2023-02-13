@@ -1,0 +1,6 @@
+type: fix
+fix:
+  description: The Palantir CA Plugin is automatically applied, allowing tests running
+    in JDKs setup by gradle-jdks to work.
+  links:
+  - https://github.com/palantir/gradle-jdks-latest/pull/82
