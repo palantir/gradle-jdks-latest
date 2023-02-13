@@ -20,6 +20,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.palantir.gradle.jdks.JdksExtension;
 import com.palantir.gradle.jdks.JdksPlugin;
+import com.palantir.gradle.jdks.PalantirCaPlugin;
 import java.io.IOException;
 import java.util.Map;
 import org.gradle.api.Plugin;
@@ -30,6 +31,7 @@ public final class LatestJdksPlugin implements Plugin<Project> {
     @Override
     public void apply(Project project) {
         project.getPlugins().apply(JdksPlugin.class);
+        project.getPlugins().apply(PalantirCaPlugin.class);
 
         JdksExtension jdksExtension = project.getExtensions().getByType(JdksExtension.class);
 
