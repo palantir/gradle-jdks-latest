@@ -1,4 +1,4 @@
-# Run ./gradlew --write-locks to regenerate this file
+# Run ./gradlew writeVersionsLock to regenerate this file
 classworlds:classworlds:1.1-alpha-2 (1 constraints: 3c1559a6)
 com.diffplug.durian:durian-collect:1.2.0 (3 constraints: 4d313bd2)
 com.diffplug.durian:durian-core:1.2.0 (4 constraints: 2640ae56)
