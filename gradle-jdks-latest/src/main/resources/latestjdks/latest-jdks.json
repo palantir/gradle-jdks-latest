@@ -1,22 +1,18 @@
 {
   "11": {
     "distribution": "amazon-corretto",
-    "version": "11.0.21.9.1"
-  },
-  "15": {
-    "distribution": "azul-zulu",
-    "version": "15.44.13-15.0.9"
+    "version": "11.0.22.7.1"
   },
   "17": {
     "distribution": "amazon-corretto",
-    "version": "17.0.9.8.1"
+    "version": "17.0.10.7.1"
   },
   "8": {
     "distribution": "amazon-corretto",
-    "version": "8.392.08.1"
+    "version": "8.402.08.1"
   },
   "21": {
     "distribution": "amazon-corretto",
-    "version": "21.0.1.12.1"
+    "version": "21.0.2.13.1"
   }
 }
