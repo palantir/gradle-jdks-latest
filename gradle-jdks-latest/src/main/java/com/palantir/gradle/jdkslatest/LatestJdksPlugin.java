@@ -21,11 +21,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.palantir.gradle.jdks.JdksExtension;
 import com.palantir.gradle.jdks.JdksPlugin;
 import com.palantir.gradle.jdks.PalantirCaPlugin;
+import com.palantir.gradle.jdks.json.JdksInfoJson;
 import java.io.IOException;
-import java.util.Map;
 import org.gradle.api.Plugin;
 import org.gradle.api.Project;
-import org.gradle.jvm.toolchain.JavaLanguageVersion;
 
 public final class LatestJdksPlugin implements Plugin<Project> {
     @Override
@@ -35,20 +34,15 @@ public final class LatestJdksPlugin implements Plugin<Project> {
 
         JdksExtension jdksExtension = project.getExtensions().getByType(JdksExtension.class);
 
-        deserializeLatestJdkVersions().forEach((javaVersionAsString, jdkInfo) -> {
-            jdksExtension.jdk(JavaLanguageVersion.of(javaVersionAsString), jdkExtension -> {
-                jdkExtension.getDistributionName().set(jdkInfo.distribution());
-                jdkExtension.getJdkVersion().set(jdkInfo.version());
-            });
-        });
+        jdksExtension.fromJson(deserializeLatestJdkVersions());
     }
 
-    private Map<String, JdkInfo> deserializeLatestJdkVersions() {
+    private JdksInfoJson deserializeLatestJdkVersions() {
         ObjectMapper objectMapper = new ObjectMapper();
 
         try {
             return objectMapper.readValue(
-                    LatestJdksPlugin.class.getClassLoader().getResourceAsStream("latestjdks/latest-jdks.json"),
+                    LatestJdksPlugin.class.getClassLoader().getResourceAsStream("latestjdks/latest-gradle-jdks.json"),
                     new TypeReference<>() {});
         } catch (IOException e) {
             throw new RuntimeException("Could not deserialize list of versions to use for JDKs", e);

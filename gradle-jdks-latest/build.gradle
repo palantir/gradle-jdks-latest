@@ -23,13 +23,6 @@ gradlePlugin {
     }
 }
 
-//pluginBundle {
-//    website = 'https://github.com/palantir/gradle-jdks-latest'
-//    vcsUrl = 'https://github.com/palantir/gradle-jdks-latest'
-//    description = 'Configure gradle-jdks with the latest blessed JDKs'
-//    tags = ['java', 'jdks']
-//}
-
 tasks.withType(JavaCompile).configureEach {
     it.options.errorprone.disable 'JavaxInjectOnAbstractMethod'
 }
