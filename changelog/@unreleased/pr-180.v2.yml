@@ -1,0 +1,5 @@
+type: feature
+feature:
+  description: Support different JDK versions per operating system and architecture
+  links:
+  - https://github.com/palantir/gradle-jdks-latest/pull/180
