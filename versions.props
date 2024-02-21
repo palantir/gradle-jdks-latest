@@ -5,7 +5,7 @@ org.immutables:* = 2.10.0
 com.netflix.nebula:nebula-test = 10.1.0
 
 # dependency-upgrader:OFF
-com.palantir.gradle.jdks:* = 999
+com.palantir.gradle.jdks:* = 0.35.0
 # dependency-upgrader:ON
 
 # conflict resolution
