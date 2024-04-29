@@ -46,7 +46,7 @@ apply plugin: 'com.palantir.jdks.latest'
 
 This plugin will apply the `com.palantir.jdks` plugins for you, [see those docs](https://github.com/palantir/gradle-jdks#usage) for more details.
 
-You will now not need to configure the JDKs distribution/version for [the java major versions this plugin provides](https://github.com/palantir/gradle-jdks-latest/blob/develop/gradle-jdks-latest/src/main/resources/latestjdks/latest-jdks.json):
+You will now not need to configure the JDKs distribution/version for [the java major versions this plugin provides](https://github.com/palantir/gradle-jdks-latest/blob/develop/gradle-jdks-latest/src/main/resources/latestjdks/latest-gradle-jdks.json):
 
 ```diff
 -jdk(11) {
