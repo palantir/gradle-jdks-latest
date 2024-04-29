@@ -12,7 +12,7 @@ This primarily exists for Palantir use, to enforce consistency in JDK versions f
 
 The repo is regularly kept up to date with the latest versions of JDKs for the Java major versions Palantir cares about.
 
-[**The JDKs being used by this plugin can be seen here.**](https://github.com/palantir/gradle-jdks-latest/blob/develop/gradle-jdks-latest/src/main/resources/latestjdks/latest-jdks.json)
+[**The JDKs being used by this plugin can be seen here.**](https://github.com/palantir/gradle-jdks-latest/blob/develop/gradle-jdks-latest/src/main/resources/latestjdks/latest-gradle-jdks.json)
 
 ## Disclaimer
 
