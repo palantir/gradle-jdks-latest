@@ -6,40 +6,40 @@
         "macos": {
           "arch": {
             "x86-64": {
-              "version": "8.412.08.1"
+              "version": "8.422.05.1"
             },
             "aarch64": {
-              "version": "8.412.08.1"
+              "version": "8.422.05.1"
             }
           }
         },
         "linux-glibc": {
           "arch": {
             "x86-64": {
-              "version": "8.412.08.1"
+              "version": "8.422.05.1"
             },
             "aarch64": {
-              "version": "8.412.08.1"
+              "version": "8.422.05.1"
             }
           }
         },
         "linux-musl": {
           "arch": {
             "x86-64": {
-              "version": "8.412.08.1"
+              "version": "8.422.05.1"
             },
             "aarch64": {
-              "version": "8.412.08.1"
+              "version": "8.422.05.1"
             }
           }
         },
         "windows": {
           "arch": {
             "x86": {
-              "version": "8.412.08.1"
+              "version": "8.422.05.1"
             },
             "x86-64": {
-              "version": "8.412.08.1"
+              "version": "8.422.05.1"
             }
           }
         }
@@ -51,43 +51,43 @@
         "macos": {
           "arch": {
             "x86-64": {
-              "version": "11.0.23.9.1"
+              "version": "11.0.24.8.1"
             },
             "aarch64": {
-              "version": "11.0.23.9.1"
+              "version": "11.0.24.8.1"
             }
           }
         },
         "linux-glibc": {
           "arch": {
             "x86": {
-              "version": "11.0.23.9.1"
+              "version": "11.0.24.8.1"
             },
             "x86-64": {
-              "version": "11.0.23.9.1"
+              "version": "11.0.24.8.1"
             },
             "aarch64": {
-              "version": "11.0.23.9.1"
+              "version": "11.0.24.8.1"
             }
           }
         },
         "linux-musl": {
           "arch": {
             "x86-64": {
-              "version": "11.0.23.9.1"
+              "version": "11.0.24.8.1"
             },
             "aarch64": {
-              "version": "11.0.23.9.1"
+              "version": "11.0.24.8.1"
             }
           }
         },
         "windows": {
           "arch": {
             "x86": {
-              "version": "11.0.23.9.1"
+              "version": "11.0.24.8.1"
             },
             "x86-64": {
-              "version": "11.0.23.9.1"
+              "version": "11.0.24.8.1"
             }
           }
         }
@@ -99,37 +99,37 @@
         "macos": {
           "arch": {
             "x86-64": {
-              "version": "17.0.11.9.1"
+              "version": "17.0.12.7.1"
             },
             "aarch64": {
-              "version": "17.0.11.9.1"
+              "version": "17.0.12.7.1"
             }
           }
         },
         "linux-glibc": {
           "arch": {
             "x86-64": {
-              "version": "17.0.11.9.1"
+              "version": "17.0.12.7.1"
             },
             "aarch64": {
-              "version": "17.0.11.9.1"
+              "version": "17.0.12.7.1"
             }
           }
         },
         "linux-musl": {
           "arch": {
             "x86-64": {
-              "version": "17.0.11.9.1"
+              "version": "17.0.12.7.1"
             },
             "aarch64": {
-              "version": "17.0.11.9.1"
+              "version": "17.0.12.7.1"
             }
           }
         },
         "windows": {
           "arch": {
             "x86-64": {
-              "version": "17.0.11.9.1"
+              "version": "17.0.12.7.1"
             }
           }
         }
@@ -141,37 +141,37 @@
         "macos": {
           "arch": {
             "x86-64": {
-              "version": "21.0.3.9.1"
+              "version": "21.0.4.7.1"
             },
             "aarch64": {
-              "version": "21.0.3.9.1"
+              "version": "21.0.4.7.1"
             }
           }
         },
         "linux-glibc": {
           "arch": {
             "x86-64": {
-              "version": "21.0.3.9.1"
+              "version": "21.0.4.7.1"
             },
             "aarch64": {
-              "version": "21.0.3.9.1"
+              "version": "21.0.4.7.1"
             }
           }
         },
         "linux-musl": {
           "arch": {
             "x86-64": {
-              "version": "21.0.3.9.1"
+              "version": "21.0.4.7.1"
             },
             "aarch64": {
-              "version": "21.0.3.9.1"
+              "version": "21.0.4.7.1"
             }
           }
         },
         "windows": {
           "arch": {
             "x86-64": {
-              "version": "21.0.3.9.1"
+              "version": "21.0.4.7.1"
             }
           }
         }
