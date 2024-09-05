@@ -2,7 +2,7 @@ com.fasterxml.jackson.core:jackson-databind = 2.17.2
 com.fasterxml.jackson.core:* = 2.17.2
 com.github.ben-manes.caffeine:caffeine = 3.1.8
 org.immutables:* = 2.10.1
-com.netflix.nebula:nebula-test = 10.1.0
+com.netflix.nebula:nebula-test = 10.6.1
 
 # dependency-upgrader:OFF
 com.palantir.gradle.jdks:* = 0.35.0
@@ -11,4 +11,4 @@ com.palantir.gradle.jdks:* = 0.35.0
 # conflict resolution
 com.google.code.findbugs:jsr305 = 3.0.2
 com.google.errorprone:error_prone_annotations = 2.11.0
-org.checkerframework:checker-qual = 3.46.0
+org.checkerframework:checker-qual = 3.47.0
