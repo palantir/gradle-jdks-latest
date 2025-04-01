@@ -27,3 +27,7 @@ gradlePlugin {
 tasks.withType(JavaCompile).configureEach {
     it.options.errorprone.disable 'JavaxInjectOnAbstractMethod'
 }
+
+gradleTestUtils {
+    gradleVersions = ['7.6.4', '8.8', '8.12.1']
+}
