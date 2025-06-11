@@ -37,6 +37,7 @@ public final class LatestJdksPlugin implements Plugin<Project> {
         jdksExtension.fromJson(deserializeLatestJdkVersions());
     }
 
+    @SuppressWarnings("for-rollout:ThrowSpecificExceptions")
     private JdksInfoJson deserializeLatestJdkVersions() {
         ObjectMapper objectMapper = new ObjectMapper();
 
