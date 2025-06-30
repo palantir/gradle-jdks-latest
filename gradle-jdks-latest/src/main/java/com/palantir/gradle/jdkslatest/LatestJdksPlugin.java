@@ -37,8 +37,6 @@ public final class LatestJdksPlugin implements Plugin<Project> {
             project.getPlugins().apply(PalantirCaPlugin.class);
         }
 
-        project.getPlugins().apply(PalantirCaPlugin.class);
-
         JdksExtension jdksExtension = project.getExtensions().getByType(JdksExtension.class);
 
         jdksExtension.fromJson(deserializeLatestJdkVersions());
