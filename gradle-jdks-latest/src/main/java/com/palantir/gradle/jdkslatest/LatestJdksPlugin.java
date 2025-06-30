@@ -21,8 +21,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.palantir.gradle.jdks.JdksExtension;
 import com.palantir.gradle.jdks.JdksPlugin;
 import com.palantir.gradle.jdks.PalantirCaPlugin;
+import com.palantir.gradle.jdks.enablement.GradleJdksEnablement;
 import com.palantir.gradle.jdks.json.JdksInfoJson;
 import java.io.IOException;
+import java.nio.file.Path;
 import org.gradle.api.Plugin;
 import org.gradle.api.Project;
 
@@ -30,6 +32,11 @@ public final class LatestJdksPlugin implements Plugin<Project> {
     @Override
     public void apply(Project project) {
         project.getPlugins().apply(JdksPlugin.class);
+
+        if (!GradleJdksEnablement.isGradleJdkSetupEnabled(Path.of(project.getPath()))) {
+            project.getPlugins().apply(PalantirCaPlugin.class);
+        }
+
         project.getPlugins().apply(PalantirCaPlugin.class);
 
         JdksExtension jdksExtension = project.getExtensions().getByType(JdksExtension.class);
