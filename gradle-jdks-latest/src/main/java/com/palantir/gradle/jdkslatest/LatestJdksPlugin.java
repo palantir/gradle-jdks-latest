@@ -33,7 +33,7 @@ public final class LatestJdksPlugin implements Plugin<Project> {
     public void apply(Project project) {
         project.getPlugins().apply(JdksPlugin.class);
 
-        if (!GradleJdksEnablement.isGradleJdkSetupEnabled(Path.of(project.getPath()))) {
+        if (GradleJdksEnablement.isGradleJdkSetupEnabled(Path.of(project.getPath()))) {
             project.getPlugins().apply(PalantirCaPlugin.class);
         }
 
