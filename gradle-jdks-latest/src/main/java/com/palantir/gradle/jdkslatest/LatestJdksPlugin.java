@@ -24,7 +24,6 @@ import com.palantir.gradle.jdks.PalantirCaPlugin;
 import com.palantir.gradle.jdks.enablement.GradleJdksEnablement;
 import com.palantir.gradle.jdks.json.JdksInfoJson;
 import java.io.IOException;
-import java.nio.file.Path;
 import org.gradle.api.Plugin;
 import org.gradle.api.Project;
 
@@ -33,7 +32,8 @@ public final class LatestJdksPlugin implements Plugin<Project> {
     public void apply(Project project) {
         project.getPlugins().apply(JdksPlugin.class);
 
-        if (GradleJdksEnablement.isGradleJdkSetupEnabled(Path.of(project.getPath()))) {
+        if (!GradleJdksEnablement.isGradleJdkSetupEnabled(
+                project.getRootProject().getProjectDir().toPath())) {
             project.getPlugins().apply(PalantirCaPlugin.class);
         }
 
