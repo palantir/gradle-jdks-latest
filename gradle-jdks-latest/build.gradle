@@ -6,6 +6,7 @@ apply plugin: 'com.palantir.gradle-plugin-testing'
 dependencies {
     implementation 'com.palantir.gradle.jdks:gradle-jdks'
     implementation 'com.fasterxml.jackson.core:jackson-databind'
+    implementation 'com.palantir.gradle.utils:platform'
 
     compileOnly 'org.immutables:value::annotations'
     annotationProcessor 'org.immutables:value'

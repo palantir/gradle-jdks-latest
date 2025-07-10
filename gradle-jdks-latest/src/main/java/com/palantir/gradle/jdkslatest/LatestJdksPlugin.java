@@ -23,16 +23,23 @@ import com.palantir.gradle.jdks.JdksPlugin;
 import com.palantir.gradle.jdks.PalantirCaPlugin;
 import com.palantir.gradle.jdks.enablement.GradleJdksEnablement;
 import com.palantir.gradle.jdks.json.JdksInfoJson;
+import com.palantir.platform.GradleOperatingSystem;
 import java.io.IOException;
 import org.gradle.api.Plugin;
 import org.gradle.api.Project;
+import org.gradle.api.tasks.Nested;
 
-public final class LatestJdksPlugin implements Plugin<Project> {
+public abstract class LatestJdksPlugin implements Plugin<Project> {
+
+    @Nested
+    protected abstract GradleOperatingSystem getOperatingSystem();
+
     @Override
-    public void apply(Project project) {
+    public final void apply(Project project) {
         project.getPlugins().apply(JdksPlugin.class);
 
         if (!GradleJdksEnablement.isGradleJdkSetupEnabled(
+                getOperatingSystem().getOperatingSystem().get(),
                 project.getProjectDir().toPath())) {
             project.getPlugins().apply(PalantirCaPlugin.class);
         }
