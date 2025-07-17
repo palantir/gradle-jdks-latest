@@ -25,6 +25,7 @@ import com.palantir.gradle.jdks.enablement.GradleJdksEnablement;
 import com.palantir.gradle.jdks.json.JdksInfoJson;
 import com.palantir.platform.GradleOperatingSystem;
 import java.io.IOException;
+import java.io.UncheckedIOException;
 import org.gradle.api.Plugin;
 import org.gradle.api.Project;
 import org.gradle.api.tasks.Nested;
@@ -57,7 +58,7 @@ public abstract class LatestJdksPlugin implements Plugin<Project> {
                     LatestJdksPlugin.class.getClassLoader().getResourceAsStream("latestjdks/latest-gradle-jdks.json"),
                     new TypeReference<>() {});
         } catch (IOException e) {
-            throw new RuntimeException("Could not deserialize list of versions to use for JDKs", e);
+            throw new UncheckedIOException("Could not deserialize list of versions to use for JDKs", e);
         }
     }
 }
