@@ -176,6 +176,48 @@
           }
         }
       }
+    },
+    "25": {
+      "distribution": "amazon-corretto",
+      "os": {
+        "macos": {
+          "arch": {
+            "x86-64": {
+              "version": "25.0.0.36.2"
+            },
+            "aarch64": {
+              "version": "25.0.0.36.2"
+            }
+          }
+        },
+        "linux-glibc": {
+          "arch": {
+            "x86-64": {
+              "version": "25.0.0.36.2"
+            },
+            "aarch64": {
+              "version": "25.0.0.36.2"
+            }
+          }
+        },
+        "linux-musl": {
+          "arch": {
+            "x86-64": {
+              "version": "25.0.0.36.2"
+            },
+            "aarch64": {
+              "version": "25.0.0.36.2"
+            }
+          }
+        },
+        "windows": {
+          "arch": {
+            "x86-64": {
+              "version": "25.0.0.36.2"
+            }
+          }
+        }
+      }
     }
   }
 }
