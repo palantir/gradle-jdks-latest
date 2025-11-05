@@ -151,20 +151,20 @@
         "linux-glibc": {
           "arch": {
             "x86-64": {
-              "version": "21.0.9.10.1"
+              "version": "21.0.9.11.1"
             },
             "aarch64": {
-              "version": "21.0.9.10.1"
+              "version": "21.0.9.11.1"
             }
           }
         },
         "linux-musl": {
           "arch": {
             "x86-64": {
-              "version": "21.0.9.10.1"
+              "version": "21.0.9.11.1"
             },
             "aarch64": {
-              "version": "21.0.9.10.1"
+              "version": "21.0.9.11.1"
             }
           }
         },
@@ -193,20 +193,20 @@
         "linux-glibc": {
           "arch": {
             "x86-64": {
-              "version": "25.0.1.8.1"
+              "version": "25.0.1.9.1"
             },
             "aarch64": {
-              "version": "25.0.1.8.1"
+              "version": "25.0.1.9.1"
             }
           }
         },
         "linux-musl": {
           "arch": {
             "x86-64": {
-              "version": "25.0.1.8.1"
+              "version": "25.0.1.9.1"
             },
             "aarch64": {
-              "version": "25.0.1.8.1"
+              "version": "25.0.1.9.1"
             }
           }
         },
