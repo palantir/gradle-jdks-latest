@@ -29,6 +29,3 @@ tasks.withType(JavaCompile).configureEach {
     it.options.errorprone.disable 'JavaxInjectOnAbstractMethod'
 }
 
-gradleTestUtils {
-    gradleVersions = ['8.14.3']
-}
