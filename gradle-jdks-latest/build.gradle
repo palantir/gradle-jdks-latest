@@ -1,5 +1,4 @@
 apply plugin: 'java-gradle-plugin'
-apply plugin: 'groovy'
 apply plugin: 'com.palantir.external-publish-jar'
 apply plugin: 'com.palantir.gradle-plugin-testing'
 
@@ -11,7 +10,6 @@ dependencies {
     compileOnly 'org.immutables:value::annotations'
     annotationProcessor 'org.immutables:value'
 
-    testImplementation 'com.netflix.nebula:nebula-test'
 }
 
 gradlePlugin {
@@ -29,6 +27,3 @@ tasks.withType(JavaCompile).configureEach {
     it.options.errorprone.disable 'JavaxInjectOnAbstractMethod'
 }
 
-gradleTestUtils {
-    gradleVersions = ['8.14.3']
-}
