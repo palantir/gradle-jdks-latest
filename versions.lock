@@ -172,7 +172,7 @@ org.junit.platform:junit-platform-commons:1.13.4 (2 constraints: 39219184)
 
 org.junit.platform:junit-platform-engine:1.13.4 (3 constraints: 863025a3)
 
-org.junit.platform:junit-platform-launcher:1.13.4 (1 constraints: 4f160bf4)
+org.junit.platform:junit-platform-launcher:1.13.4 (2 constraints: 891b6b73)
 
 org.objenesis:objenesis:2.4 (1 constraints: ea0c8c0a)
 
