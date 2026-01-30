@@ -99,37 +99,37 @@
         "macos": {
           "arch": {
             "x86-64": {
-              "version": "17.0.18.8.1"
+              "version": "17.0.18.9.1"
             },
             "aarch64": {
-              "version": "17.0.18.8.1"
+              "version": "17.0.18.9.1"
             }
           }
         },
         "linux-glibc": {
           "arch": {
             "x86-64": {
-              "version": "17.0.18.8.1"
+              "version": "17.0.18.9.1"
             },
             "aarch64": {
-              "version": "17.0.18.8.1"
+              "version": "17.0.18.9.1"
             }
           }
         },
         "linux-musl": {
           "arch": {
             "x86-64": {
-              "version": "17.0.18.8.1"
+              "version": "17.0.18.9.1"
             },
             "aarch64": {
-              "version": "17.0.18.8.1"
+              "version": "17.0.18.9.1"
             }
           }
         },
         "windows": {
           "arch": {
             "x86-64": {
-              "version": "17.0.18.8.1"
+              "version": "17.0.18.9.1"
             }
           }
         }
