@@ -3,7 +3,7 @@ com.fasterxml.jackson.core:jackson-annotations = 2.20
 com.github.ben-manes.caffeine:caffeine = 3.2.0
 org.immutables:* = 2.12.1
 com.netflix.nebula:nebula-test = 10.6.2
-com.palantir.gradle.utils:* = 0.21.0
+com.palantir.gradle.utils:* = 0.22.0
 
 # dependency-upgrader:OFF
 com.palantir.gradle.jdks:* = 0.68.0
