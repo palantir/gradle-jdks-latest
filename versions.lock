@@ -2,7 +2,7 @@
 
 aopalliance:aopalliance:1.0 (1 constraints: 170a83ac)
 
-com.fasterxml.jackson.core:jackson-annotations:2.21 (5 constraints: cf4fb812)
+com.fasterxml.jackson.core:jackson-annotations:2.21 (5 constraints: d04fb912)
 
 com.fasterxml.jackson.core:jackson-core:2.21.0 (1 constraints: 85123321)
 
@@ -42,13 +42,13 @@ com.palantir.gradle.jdks:gradle-jdks-setup:0.68.0 (1 constraints: 970f6092)
 
 com.palantir.gradle.jdks:gradle-jdks-setup-common:0.68.0 (3 constraints: 293b3846)
 
-com.palantir.gradle.utils:exec:0.22.0 (1 constraints: 2f0f6176)
+com.palantir.gradle.utils:exec:0.23.0 (1 constraints: 300f6476)
 
-com.palantir.gradle.utils:lazily-configured-mapping:0.22.0 (2 constraints: 4821b0b6)
+com.palantir.gradle.utils:lazily-configured-mapping:0.23.0 (2 constraints: 4821b0b6)
 
-com.palantir.gradle.utils:platform:0.22.0 (5 constraints: fb4b4c9f)
+com.palantir.gradle.utils:platform:0.23.0 (5 constraints: fc4b1da0)
 
-com.palantir.gradle.utils:providers:0.22.0 (1 constraints: 6f0dda31)
+com.palantir.gradle.utils:providers:0.23.0 (1 constraints: 700ddd31)
 
 com.palantir.javaformat:gradle-palantir-java-format:1.1.0 (1 constraints: bb11f8f4)
 
