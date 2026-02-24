@@ -8,9 +8,9 @@ com.fasterxml.jackson.core:jackson-core:2.21.1 (1 constraints: 86123421)
 
 com.fasterxml.jackson.core:jackson-databind:2.21.1 (2 constraints: b2169a34)
 
-com.github.ben-manes.caffeine:caffeine:3.2.0 (2 constraints: cb165a2b)
+com.github.ben-manes.caffeine:caffeine:3.2.3 (2 constraints: ce16f62b)
 
-com.google.errorprone:error_prone_annotations:2.41.0 (2 constraints: 791a0c75)
+com.google.errorprone:error_prone_annotations:2.43.0 (2 constraints: 771ac774)
 
 com.google.guava:failureaccess:1.0.3 (2 constraints: f3154f13)
 
