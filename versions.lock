@@ -56,7 +56,7 @@ com.palantir.javaformat:palantir-java-format-spi:1.1.0 (2 constraints: 2b273bdb)
 
 commons-codec:commons-codec:1.17.1 (1 constraints: a30f8387)
 
-commons-io:commons-io:2.19.0 (4 constraints: cd4dcf53)
+commons-io:commons-io:2.21.0 (4 constraints: c64de350)
 
 commons-lang:commons-lang:2.6 (1 constraints: 6311bad1)
 
@@ -138,13 +138,13 @@ cglib:cglib-nodep:3.2.2 (1 constraints: 490ded24)
 
 com.netflix.nebula:nebula-test:10.6.2 (2 constraints: d61de72d)
 
-com.palantir.gradle.plugintesting:configuration-cache-spec:0.66.0 (1 constraints: 3e05493b)
+com.palantir.gradle.plugintesting:configuration-cache-spec:0.67.0 (1 constraints: 3f054c3b)
 
-com.palantir.gradle.plugintesting:discover-tests-cli:0.66.0 (1 constraints: 3e05493b)
+com.palantir.gradle.plugintesting:discover-tests-cli:0.67.0 (1 constraints: 3f054c3b)
 
-com.palantir.gradle.plugintesting:gradle-plugin-testing-junit:0.66.0 (1 constraints: 3e05493b)
+com.palantir.gradle.plugintesting:gradle-plugin-testing-junit:0.67.0 (1 constraints: 3f054c3b)
 
-com.palantir.gradle.plugintesting:plugin-testing-core:0.66.0 (1 constraints: 3e05493b)
+com.palantir.gradle.plugintesting:plugin-testing-core:0.67.0 (1 constraints: 3f054c3b)
 
 info.picocli:picocli:4.7.7 (1 constraints: 2816dcdd)
 
