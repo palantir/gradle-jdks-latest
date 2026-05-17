@@ -122,9 +122,9 @@ org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5 (3 constraints: 852caa93)
 
 org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5 (2 constraints: 141abc34)
 
-org.immutables:serial:2.12.1 (1 constraints: 74113fef)
+org.immutables:serial:2.12.2 (1 constraints: 74113fef)
 
-org.immutables:value:2.12.1 (2 constraints: ab168834)
+org.immutables:value:2.12.2 (2 constraints: ac16bc34)
 
 org.jspecify:jspecify:1.0.0 (8 constraints: 4980dcf3)
 
