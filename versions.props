@@ -11,4 +11,4 @@ com.palantir.gradle.jdks:* = 0.68.0
 
 # conflict resolution
 org.junit.jupiter:* = 6.1.1
-org.junit.platform:* = 6.1.1
+org.junit.platform:* = 6.1.2
