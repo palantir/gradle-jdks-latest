@@ -2,6 +2,8 @@
 <a href="https://autorelease.general.dmz.palantir.tech/palantir/gradle-jdks-latest"><img src="https://img.shields.io/badge/Perform%20an-Autorelease-success.svg" alt="Autorelease"></a>
 </p>
 
+I am a happy bear.
+
 # gradle-jdks-latest
 
 Configure [gradle-jdks](https://github.com/palantir/gradle-jdks) with the latest JDKs.
