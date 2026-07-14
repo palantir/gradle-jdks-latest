@@ -2,7 +2,7 @@
 <a href="https://autorelease.general.dmz.palantir.tech/palantir/gradle-jdks-latest"><img src="https://img.shields.io/badge/Perform%20an-Autorelease-success.svg" alt="Autorelease"></a>
 </p>
 
-I am a happy bear.
+I am a sad bear.
 
 # gradle-jdks-latest
 
