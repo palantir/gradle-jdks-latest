@@ -2,11 +2,11 @@
 
 aopalliance:aopalliance:1.0 (1 constraints: 170a83ac)
 
-com.fasterxml.jackson.core:jackson-annotations:2.21 (5 constraints: d04fb912)
+com.fasterxml.jackson.core:jackson-annotations:2.22 (5 constraints: d24f3014)
 
-com.fasterxml.jackson.core:jackson-core:2.21.4 (1 constraints: 89123721)
+com.fasterxml.jackson.core:jackson-core:2.22.1 (1 constraints: 87123721)
 
-com.fasterxml.jackson.core:jackson-databind:2.21.4 (2 constraints: b5163635)
+com.fasterxml.jackson.core:jackson-databind:2.22.1 (2 constraints: b316d034)
 
 com.github.ben-manes.caffeine:caffeine:3.2.4 (2 constraints: cf162a2c)
 
