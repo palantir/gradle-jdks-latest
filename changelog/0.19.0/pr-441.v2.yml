@@ -1,5 +1,0 @@
-type: improvement
-improvement:
-  description: Only apply `PalantirCaPlugin` if we are using legacy gradle-jdks codepath
-  links:
-  - https://github.com/palantir/gradle-jdks-latest/pull/441

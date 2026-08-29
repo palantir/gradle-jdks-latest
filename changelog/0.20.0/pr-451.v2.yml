@@ -1,6 +1,0 @@
-type: fix
-fix:
-  description: Allow `gradle-jdks-internal` to use the new `isGradleJdkSetupEnabled`
-    by adding the `GradleOperatingSystem`
-  links:
-  - https://github.com/palantir/gradle-jdks-latest/pull/451
