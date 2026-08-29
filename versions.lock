@@ -42,15 +42,15 @@ com.palantir.gradle.jdks:gradle-jdks-setup:0.68.0 (1 constraints: 970f6092)
 
 com.palantir.gradle.jdks:gradle-jdks-setup-common:0.68.0 (3 constraints: 293b3846)
 
-com.palantir.gradle.utils:exec:0.28.0 (1 constraints: 350f7376)
+com.palantir.gradle.utils:exec:0.29.0 (1 constraints: 360f7676)
 
-com.palantir.gradle.utils:lazily-configured-mapping:0.28.0 (2 constraints: 4821b0b6)
+com.palantir.gradle.utils:lazily-configured-mapping:0.29.0 (2 constraints: 4821b0b6)
 
-com.palantir.gradle.utils:platform:0.28.0 (5 constraints: 014c32a4)
+com.palantir.gradle.utils:platform:0.29.0 (5 constraints: 024c03a5)
 
-com.palantir.gradle.utils:providers:0.28.0 (1 constraints: 750dec31)
+com.palantir.gradle.utils:providers:0.29.0 (1 constraints: 760def31)
 
-com.palantir.gradle.utils:safe-exec-commandline:0.28.0 (1 constraints: 750dec31)
+com.palantir.gradle.utils:safe-exec-commandline:0.29.0 (1 constraints: 760def31)
 
 com.palantir.javaformat:gradle-palantir-java-format:1.1.0 (1 constraints: bb11f8f4)
 
