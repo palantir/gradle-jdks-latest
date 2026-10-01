@@ -6,40 +6,40 @@
         "macos": {
           "arch": {
             "x86-64": {
-              "version": "8.504.01.1"
+              "version": "8.504.04.1"
             },
             "aarch64": {
-              "version": "8.504.01.1"
+              "version": "8.504.04.1"
             }
           }
         },
         "linux-glibc": {
           "arch": {
             "x86-64": {
-              "version": "8.504.01.1"
+              "version": "8.504.04.1"
             },
             "aarch64": {
-              "version": "8.504.01.1"
+              "version": "8.504.04.1"
             }
           }
         },
         "linux-musl": {
           "arch": {
             "x86-64": {
-              "version": "8.504.01.1"
+              "version": "8.504.04.1"
             },
             "aarch64": {
-              "version": "8.504.01.1"
+              "version": "8.504.04.1"
             }
           }
         },
         "windows": {
           "arch": {
             "x86": {
-              "version": "8.504.01.1"
+              "version": "8.504.04.1"
             },
             "x86-64": {
-              "version": "8.504.01.1"
+              "version": "8.504.04.1"
             }
           }
         }
