@@ -4,9 +4,9 @@ aopalliance:aopalliance:1.0 (1 constraints: 170a83ac)
 
 com.fasterxml.jackson.core:jackson-annotations:2.22 (5 constraints: d34f3114)
 
-com.fasterxml.jackson.core:jackson-core:2.22.3 (1 constraints: 89123921)
+com.fasterxml.jackson.core:jackson-core:2.22.4 (1 constraints: 8a123a21)
 
-com.fasterxml.jackson.core:jackson-databind:2.22.3 (2 constraints: b5163835)
+com.fasterxml.jackson.core:jackson-databind:2.22.4 (2 constraints: b6166c35)
 
 com.github.ben-manes.caffeine:caffeine:3.3.1 (2 constraints: cd16c42b)
 
