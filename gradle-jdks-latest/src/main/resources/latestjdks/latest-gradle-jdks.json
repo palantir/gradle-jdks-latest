@@ -6,40 +6,40 @@
         "macos": {
           "arch": {
             "x86-64": {
-              "version": "8.512.09.1"
+              "version": "8.514.01.1"
             },
             "aarch64": {
-              "version": "8.512.09.1"
+              "version": "8.514.01.1"
             }
           }
         },
         "linux-glibc": {
           "arch": {
             "x86-64": {
-              "version": "8.512.09.1"
+              "version": "8.514.01.1"
             },
             "aarch64": {
-              "version": "8.512.09.1"
+              "version": "8.514.01.1"
             }
           }
         },
         "linux-musl": {
           "arch": {
             "x86-64": {
-              "version": "8.512.09.1"
+              "version": "8.514.01.1"
             },
             "aarch64": {
-              "version": "8.512.09.1"
+              "version": "8.514.01.1"
             }
           }
         },
         "windows": {
           "arch": {
             "x86": {
-              "version": "8.512.09.1"
+              "version": "8.514.01.1"
             },
             "x86-64": {
-              "version": "8.512.09.1"
+              "version": "8.514.01.1"
             }
           }
         }
@@ -51,43 +51,43 @@
         "macos": {
           "arch": {
             "x86-64": {
-              "version": "11.0.33.0.10"
+              "version": "11.0.33.1.1"
             },
             "aarch64": {
-              "version": "11.0.33.0.10"
+              "version": "11.0.33.1.1"
             }
           }
         },
         "linux-glibc": {
           "arch": {
             "x86": {
-              "version": "11.0.33.0.10"
+              "version": "private-release-11.0.33.1.1_RC1_98"
             },
             "x86-64": {
-              "version": "11.0.33.0.10"
+              "version": "11.0.33.1.1"
             },
             "aarch64": {
-              "version": "11.0.33.0.10"
+              "version": "11.0.33.1.1"
             }
           }
         },
         "linux-musl": {
           "arch": {
             "x86-64": {
-              "version": "11.0.33.0.10"
+              "version": "11.0.33.1.1"
             },
             "aarch64": {
-              "version": "11.0.33.0.10"
+              "version": "11.0.33.1.1"
             }
           }
         },
         "windows": {
           "arch": {
             "x86": {
-              "version": "11.0.33.0.10"
+              "version": "11.0.33.1.1"
             },
             "x86-64": {
-              "version": "11.0.33.0.10"
+              "version": "11.0.33.1.1"
             }
           }
         }
